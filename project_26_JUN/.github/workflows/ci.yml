@@ -1,0 +1,51 @@
+name: Automotive Multi-Agent CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupération du code source
+        uses: actions/checkout@v4
+
+      - name: Configuration de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-html
+
+      - name: Vérification de la structure du projet
+        run: |
+          pwd
+          ls -la
+          ls -la tests
+
+      - name: Exécution des tests
+        run: |
+          mkdir -p reports
+
+          pytest tests/test_api_extensions.py -v \
+            --durations=0 \
+            --junitxml=reports/pytest-report.xml \
+            --html=reports/pytest-report.html \
+            --self-contained-html
+
+      - name: Publication des rapports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pytest-reports
+          path: reports/

@@ -1,0 +1,519 @@
+{
+  "562c96d2-94aa-413a-a488-9f1989915e78": [
+    {
+      "timestamp": "2026-06-26T11:44:48.418118+00:00",
+      "correlation_id": "562c96d2-94aa-413a-a488-9f1989915e78",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:44:48.418949+00:00",
+      "correlation_id": "562c96d2-94aa-413a-a488-9f1989915e78",
+      "agent": "supervisor",
+      "event": "routed_to=diagnostic",
+      "level": "INFO"
+    }
+  ],
+  "ea18f925-52e4-48a7-8534-54cce35c0ec0": [
+    {
+      "timestamp": "2026-06-26T11:44:48.427803+00:00",
+      "correlation_id": "ea18f925-52e4-48a7-8534-54cce35c0ec0",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:44:48.428463+00:00",
+      "correlation_id": "ea18f925-52e4-48a7-8534-54cce35c0ec0",
+      "agent": "supervisor",
+      "event": "routed_to=maintenance",
+      "level": "INFO"
+    }
+  ],
+  "bc2096ae-338e-4cae-b006-68d7a2fa380a": [
+    {
+      "timestamp": "2026-06-26T11:44:48.433050+00:00",
+      "correlation_id": "bc2096ae-338e-4cae-b006-68d7a2fa380a",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:44:48.433652+00:00",
+      "correlation_id": "bc2096ae-338e-4cae-b006-68d7a2fa380a",
+      "agent": "supervisor",
+      "event": "routed_to=parts",
+      "level": "INFO"
+    }
+  ],
+  "b6af758a-921c-4213-b929-fb68b4607c72": [
+    {
+      "timestamp": "2026-06-26T11:44:48.437986+00:00",
+      "correlation_id": "b6af758a-921c-4213-b929-fb68b4607c72",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:44:48.438663+00:00",
+      "correlation_id": "b6af758a-921c-4213-b929-fb68b4607c72",
+      "agent": "supervisor",
+      "event": "routed_to=telemetry",
+      "level": "INFO"
+    }
+  ],
+  "51d0c5ca-025f-4012-bd5a-c0979bbe7bc9": [
+    {
+      "timestamp": "2026-06-26T11:44:48.445886+00:00",
+      "correlation_id": "51d0c5ca-025f-4012-bd5a-c0979bbe7bc9",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:44:48.446666+00:00",
+      "correlation_id": "51d0c5ca-025f-4012-bd5a-c0979bbe7bc9",
+      "agent": "supervisor",
+      "event": "routed_to=FINISH",
+      "level": "INFO"
+    }
+  ],
+  "79eb9318-f543-4234-89c8-6416499b2b05": [
+    {
+      "timestamp": "2026-06-26T11:44:48.531090+00:00",
+      "correlation_id": "79eb9318-f543-4234-89c8-6416499b2b05",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "Test query"
+      }
+    },
+    {
+      "timestamp": "2026-06-26T11:44:48.533194+00:00",
+      "correlation_id": "79eb9318-f543-4234-89c8-6416499b2b05",
+      "agent": "diagnostic",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:44:48.535903+00:00",
+      "correlation_id": "79eb9318-f543-4234-89c8-6416499b2b05",
+      "agent": "diagnostic",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:44:48.536797+00:00",
+      "correlation_id": "79eb9318-f543-4234-89c8-6416499b2b05",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "Test response"
+      }
+    }
+  ],
+  "039b9581-a1a8-4e99-bf56-d6c3a9071bce": [
+    {
+      "timestamp": "2026-06-26T11:48:09.340675+00:00",
+      "correlation_id": "039b9581-a1a8-4e99-bf56-d6c3a9071bce",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:09.341472+00:00",
+      "correlation_id": "039b9581-a1a8-4e99-bf56-d6c3a9071bce",
+      "agent": "supervisor",
+      "event": "routed_to=diagnostic",
+      "level": "INFO"
+    }
+  ],
+  "540252e7-c843-4bdb-baf3-c0ab19bc4fb4": [
+    {
+      "timestamp": "2026-06-26T11:48:09.346280+00:00",
+      "correlation_id": "540252e7-c843-4bdb-baf3-c0ab19bc4fb4",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:09.347195+00:00",
+      "correlation_id": "540252e7-c843-4bdb-baf3-c0ab19bc4fb4",
+      "agent": "supervisor",
+      "event": "routed_to=maintenance",
+      "level": "INFO"
+    }
+  ],
+  "b46f5795-7ac8-431f-aa0c-ccac7ea33bc4": [
+    {
+      "timestamp": "2026-06-26T11:48:09.352805+00:00",
+      "correlation_id": "b46f5795-7ac8-431f-aa0c-ccac7ea33bc4",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:09.353598+00:00",
+      "correlation_id": "b46f5795-7ac8-431f-aa0c-ccac7ea33bc4",
+      "agent": "supervisor",
+      "event": "routed_to=parts",
+      "level": "INFO"
+    }
+  ],
+  "6ee41cd2-6b40-48da-bb28-913e727a75d8": [
+    {
+      "timestamp": "2026-06-26T11:48:09.365599+00:00",
+      "correlation_id": "6ee41cd2-6b40-48da-bb28-913e727a75d8",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:09.367450+00:00",
+      "correlation_id": "6ee41cd2-6b40-48da-bb28-913e727a75d8",
+      "agent": "supervisor",
+      "event": "routed_to=telemetry",
+      "level": "INFO"
+    }
+  ],
+  "c71d8ac1-0b8b-4a6c-b475-9d34be07af77": [
+    {
+      "timestamp": "2026-06-26T11:48:09.375403+00:00",
+      "correlation_id": "c71d8ac1-0b8b-4a6c-b475-9d34be07af77",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:09.376344+00:00",
+      "correlation_id": "c71d8ac1-0b8b-4a6c-b475-9d34be07af77",
+      "agent": "supervisor",
+      "event": "routed_to=FINISH",
+      "level": "INFO"
+    }
+  ],
+  "88faa1b1-b4e8-4c43-aaf7-c67ee69f126e": [
+    {
+      "timestamp": "2026-06-26T11:48:09.461769+00:00",
+      "correlation_id": "88faa1b1-b4e8-4c43-aaf7-c67ee69f126e",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "Test query"
+      }
+    },
+    {
+      "timestamp": "2026-06-26T11:48:09.463051+00:00",
+      "correlation_id": "88faa1b1-b4e8-4c43-aaf7-c67ee69f126e",
+      "agent": "diagnostic",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:09.467083+00:00",
+      "correlation_id": "88faa1b1-b4e8-4c43-aaf7-c67ee69f126e",
+      "agent": "diagnostic",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:09.470128+00:00",
+      "correlation_id": "88faa1b1-b4e8-4c43-aaf7-c67ee69f126e",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "Test response"
+      }
+    }
+  ],
+  "4e8df88b-31d8-4c25-bfd9-156d0981844d": [
+    {
+      "timestamp": "2026-06-26T11:48:53.661930+00:00",
+      "correlation_id": "4e8df88b-31d8-4c25-bfd9-156d0981844d",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "Quelle référence pour les plaquettes de frein avant ?",
+        "vehicle_context": {
+          "marque": "Renault",
+          "modele": "Clio IV",
+          "annee": 2019,
+          "kilometrage": 85000,
+          "motorisation": "1.5 dCi 90ch"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-26T11:48:53.687746+00:00",
+      "correlation_id": "4e8df88b-31d8-4c25-bfd9-156d0981844d",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:54.200682+00:00",
+      "correlation_id": "4e8df88b-31d8-4c25-bfd9-156d0981844d",
+      "agent": "supervisor",
+      "event": "routed_to=parts",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:54.208511+00:00",
+      "correlation_id": "4e8df88b-31d8-4c25-bfd9-156d0981844d",
+      "agent": "parts",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:55.537441+00:00",
+      "correlation_id": "4e8df88b-31d8-4c25-bfd9-156d0981844d",
+      "agent": "parts",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:48:55.543417+00:00",
+      "correlation_id": "4e8df88b-31d8-4c25-bfd9-156d0981844d",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "🔩 PIÈCES IDENTIFIÉES\n\n| Pièce         | Référence OEM   | Aftermarket     | Prix indicatif  |\n|---------------|-----------------|-----------------|-----------------|\n| Plaquettes AV | 8200751444     | Brembo P30 07AB | 40-90€ la paire |\n|               |                 | Ferodo FDB2004  |                 |\n|               |                 | Mintex MDB2004  |                 |\n\n✅ COMPATIBILITÉ\n• Compatible avec : Renault Clio IV (2012-2019) avec motorisation 1.5 dCi 90ch\n• Incompatible avec : Les modèles Clio IV avec frein à disque ventilé avant (certains modèles GT Line ou RS)\n\n💡 CONSEIL\n• Privilégier OEM si : Vous recherchez une garantie de qualité et de performance identique à celle d'origine\n• Aftermarket suffisant si : Vous êtes à la recherche d'une option plus abordable sans compromettre la sécurité et la performance du véhicule\n\nIl est important de noter que les références peuvent varier en fonction de la spécification exacte de votre véhicule. Il est recommandé de vérifier les références avec un concessionnaire Renault ou un professionnel de l'automobile pour garantir la compatibilité."
+      }
+    }
+  ],
+  "edcbc9d5-544a-4478-8afc-8ede2891994e": [
+    {
+      "timestamp": "2026-06-26T11:50:50.037394+00:00",
+      "correlation_id": "edcbc9d5-544a-4478-8afc-8ede2891994e",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "Le voyant moteur s'est allumé en rouge après un bruit sourd sous le capot et j'ai une grosse perte de puissance.",
+        "vehicle_context": {
+          "marque": "Renault",
+          "modele": "Clio IV",
+          "annee": 2019,
+          "kilometrage": 85000,
+          "motorisation": "1.5 dCi 90ch"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-26T11:50:50.064750+00:00",
+      "correlation_id": "edcbc9d5-544a-4478-8afc-8ede2891994e",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:50:50.346073+00:00",
+      "correlation_id": "edcbc9d5-544a-4478-8afc-8ede2891994e",
+      "agent": "supervisor",
+      "event": "routed_to=diagnostic",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:50:50.357748+00:00",
+      "correlation_id": "edcbc9d5-544a-4478-8afc-8ede2891994e",
+      "agent": "diagnostic",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:50:52.347027+00:00",
+      "correlation_id": "edcbc9d5-544a-4478-8afc-8ede2891994e",
+      "agent": "diagnostic",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:50:52.350229+00:00",
+      "correlation_id": "edcbc9d5-544a-4478-8afc-8ede2891994e",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "🔍 DIAGNOSTIC\n• Code(s) détecté(s) : Il est probable que le système OBD-II ait enregistré un ou plusieurs codes défaut tels que P0234 (pression de turbo basse), P0299 (pression de turbo élevée), P0401 (système EGR défectueux), etc. Cependant, sans accès direct au véhicule, il est difficile de déterminer les codes exacts.\n• Système concerné : Le système concerné est probablement le système de turbo ou le système d'alimentation en carburant, ainsi que le système de gestion des gaz d'échappement.\n• Cause probable : La cause probable est une défaillance du turbo, une fuite d'air dans le système d'alimentation en carburant, un problème avec le système EGR (Exhaust Gas Recirculation) ou une obstruction dans le système d'échappement.\n• Niveau de gravité : 🔴 Critique\n\n🔧 ACTIONS RECOMMANDÉES\n1. Action immédiate : Éviter de continuer à utiliser le véhicule pour ne pas aggraver la situation et risquer des dégâts plus importants. Il est recommandé de faire transporter le véhicule à un garage spécialisé pour une inspection et une réparation rapide.\n2. Vérification du système de turbo et du système d'alimentation en carburant : Un mécanicien doit vérifier le turbo, les tuyaux et les joints pour détecter toute fuite d'air ou tout autre problème. Il doit également vérifier le système EGR et le système d'échappement pour détecter toute obstruction ou défaillance.\n3. Lecture des codes défaut : Un outil de diagnostic OBD-II doit être utilisé pour lire les codes défaut enregistrés et déterminer la cause exacte du problème.\n4. Réparation ou remplacement des pièces défectueuses : Une fois la cause du problème identifiée, les pièces défectueuses doivent être réparées ou remplacées pour restaurer le fonctionnement normal du véhicule."
+      }
+    }
+  ],
+  "55a19c86-8fba-455c-93a7-5e66960e1491": [
+    {
+      "timestamp": "2026-06-26T11:51:38.585151+00:00",
+      "correlation_id": "55a19c86-8fba-455c-93a7-5e66960e1491",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "À quel kilométrage dois-je changer la courroie de distribution sur ma Clio IV dCi 90 ?",
+        "vehicle_context": {
+          "marque": "Renault",
+          "modele": "Clio IV",
+          "annee": 2019,
+          "kilometrage": 85000,
+          "motorisation": "1.5 dCi 90ch"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-26T11:51:38.591785+00:00",
+      "correlation_id": "55a19c86-8fba-455c-93a7-5e66960e1491",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:51:38.907679+00:00",
+      "correlation_id": "55a19c86-8fba-455c-93a7-5e66960e1491",
+      "agent": "supervisor",
+      "event": "routed_to=maintenance",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:51:38.912292+00:00",
+      "correlation_id": "55a19c86-8fba-455c-93a7-5e66960e1491",
+      "agent": "maintenance",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:51:40.146184+00:00",
+      "correlation_id": "55a19c86-8fba-455c-93a7-5e66960e1491",
+      "agent": "maintenance",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:51:40.149391+00:00",
+      "correlation_id": "55a19c86-8fba-455c-93a7-5e66960e1491",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "🛠️ PLAN DE MAINTENANCE\nVéhicule : Renault Clio IV 2019\nKilométrage actuel : 85 000 km\n\n📅 OPÉRATIONS REQUISES\n| Opération          | Intervalle     | Priorité | Coût estimé |\n|--------------------|----------------|----------|-------------|\n| Changement courroie de distribution | 120 000 km ou 6 ans | 🔴       | 300-500€     |\n| Vidange huile      | 15 000 km      | 🔴       | 80-150€     |\n| Contrôle des freins | 15 000 km      | 🔴       | 50-100€     |\n\n⚠️ POINTS D'ATTENTION\n• Il est recommandé de changer la courroie de distribution tous les 120 000 km ou tous les 6 ans, selon les recommandations du constructeur Renault. Étant donné que votre véhicule a actuellement 85 000 km, il vous reste environ 35 000 km avant de devoir procéder à ce changement.\n• Il est important de respecter les intervalles de maintenance recommandés pour éviter tout problème mécanique et assurer la sécurité de votre véhicule.\n\nIl est donc conseillé de planifier le changement de la courroie de distribution dans les prochains mois, en fonction de votre utilisation du véhicule et de votre kilométrage. Il est également recommandé de consulter le manuel du propriétaire ou de contacter un concessionnaire Renault pour obtenir des informations plus précises sur les recommandations de maintenance spécifiques à votre véhicule."
+      }
+    }
+  ],
+  "81a1152a-00bf-48b7-85b7-32af0e629cb7": [
+    {
+      "timestamp": "2026-06-26T11:55:48.516982+00:00",
+      "correlation_id": "81a1152a-00bf-48b7-85b7-32af0e629cb7",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "Température moteur de 115°C et liquide de refroidissement bas",
+        "vehicle_context": {
+          "marque": "Renault",
+          "modele": "Clio IV",
+          "annee": 2019,
+          "kilometrage": 85000,
+          "motorisation": "1.5 dCi 90ch"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-26T11:55:48.532112+00:00",
+      "correlation_id": "81a1152a-00bf-48b7-85b7-32af0e629cb7",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:55:48.783629+00:00",
+      "correlation_id": "81a1152a-00bf-48b7-85b7-32af0e629cb7",
+      "agent": "supervisor",
+      "event": "routed_to=diagnostic",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:55:48.786325+00:00",
+      "correlation_id": "81a1152a-00bf-48b7-85b7-32af0e629cb7",
+      "agent": "diagnostic",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:55:50.248050+00:00",
+      "correlation_id": "81a1152a-00bf-48b7-85b7-32af0e629cb7",
+      "agent": "diagnostic",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:55:50.251038+00:00",
+      "correlation_id": "81a1152a-00bf-48b7-85b7-32af0e629cb7",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "🔍 DIAGNOSTIC\n• Code(s) détecté(s) : P0123 (Température du liquide de refroidissement élevée), P0217 (Surchauffe du moteur)\n• Système concerné : Système de refroidissement\n• Cause probable : Niveau de liquide de refroidissement bas, fuite dans le système de refroidissement, thermostat bloqué, pompe à eau défectueuse, radiateur bouché ou corrodé\n• Niveau de gravité : 🔴 Critique\n\n🔧 ACTIONS RECOMMANDÉES\n1. **Arrêter immédiatement le moteur** pour éviter tout dommage supplémentaire et risque de surchauffe grave.\n2. **Vérifier le niveau de liquide de refroidissement** et le compléter si nécessaire avec un mélange de liquide de refroidissement recommandé par le constructeur.\n3. **Inspecter le système de refroidissement** pour détecter toute fuite ou anomalie, notamment les tuyaux, les raccords et le radiateur.\n4. **Contrôler le thermostat** pour s'assurer qu'il fonctionne correctement et n'est pas bloqué.\n5. **Faire inspecter la pompe à eau** par un professionnel pour vérifier son bon fonctionnement.\n6. **Nettoyer ou remplacer le radiateur** si nécessaire, en fonction de son état.\n7. **Réinitialiser les codes d'erreur** une fois les réparations effectuées et vérifier que le problème est résolu.\n\nIl est recommandé de consulter un professionnel pour une inspection plus approfondie et des réparations éventuelles, car une surchauffe prolongée peut causer des dommages graves au moteur."
+      }
+    }
+  ],
+  "90e4bfbf-bdd2-476e-9c0a-9777a40a04b5": [
+    {
+      "timestamp": "2026-06-26T11:59:41.269218+00:00",
+      "correlation_id": "90e4bfbf-bdd2-476e-9c0a-9777a40a04b5",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "À quel kilométrage dois-je changer la courroie de distribution sur ma Clio IV dCi 90 ?",
+        "vehicle_context": {
+          "marque": "Renault",
+          "modele": "Clio IV",
+          "annee": 2019,
+          "kilometrage": 85000,
+          "motorisation": "1.5 dCi 90ch"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-26T11:59:41.273211+00:00",
+      "correlation_id": "90e4bfbf-bdd2-476e-9c0a-9777a40a04b5",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:59:41.544706+00:00",
+      "correlation_id": "90e4bfbf-bdd2-476e-9c0a-9777a40a04b5",
+      "agent": "supervisor",
+      "event": "routed_to=maintenance",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:59:41.549658+00:00",
+      "correlation_id": "90e4bfbf-bdd2-476e-9c0a-9777a40a04b5",
+      "agent": "maintenance",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:59:42.769904+00:00",
+      "correlation_id": "90e4bfbf-bdd2-476e-9c0a-9777a40a04b5",
+      "agent": "maintenance",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T11:59:42.780181+00:00",
+      "correlation_id": "90e4bfbf-bdd2-476e-9c0a-9777a40a04b5",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "🛠️ PLAN DE MAINTENANCE\nVéhicule : Renault Clio IV 2019\nKilométrage actuel : 85 000 km\n\n📅 OPÉRATIONS REQUISES\n| Opération          | Intervalle     | Priorité | Coût estimé |\n|--------------------|----------------|----------|-------------|\n| Changement courroie de distribution | 120 000 km ou 6 ans | 🔴       | 300-500€     |\n| Vidange huile      | 15 000 km      | 🔴       | 80-150€     |\n| Contrôle des freins | 15 000 km      | 🔴       | 50-100€     |\n\n⚠️ POINTS D'ATTENTION\n• Il est recommandé de changer la courroie de distribution tous les 120 000 km ou tous les 6 ans, selon les recommandations du constructeur Renault. Étant donné que votre véhicule a actuellement 85 000 km, il vous reste environ 35 000 km avant de devoir procéder à ce changement.\n• Il est important de respecter les intervalles de maintenance recommandés pour éviter tout problème mécanique et assurer la sécurité de votre véhicule.\n\nIl est donc conseillé de planifier le changement de la courroie de distribution dans les prochains mois, en fonction de votre utilisation du véhicule et de votre kilométrage. Il est également recommandé de consulter le manuel du propriétaire ou de contacter un concessionnaire Renault pour obtenir des informations plus précises sur les recommandations de maintenance spécifiques à votre véhicule."
+      }
+    }
+  ]
+}

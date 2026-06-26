@@ -1,0 +1,32 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/vpro/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm exec create-vite@latest dashboard --template react --no-interactive
+7 verbose argv "exec" "--yes" "--" "create-vite@latest" "dashboard" "--template" "react" "--no-interactive"
+8 verbose logfile logs-max:10 dir:/Users/vpro/Desktop/Dashboard Projet5/project_26_JUN 2/project_26_JUN/.npm-cache/_logs/2026-06-26T11_45_09_353Z-
+9 verbose logfile /Users/vpro/Desktop/Dashboard Projet5/project_26_JUN 2/project_26_JUN/.npm-cache/_logs/2026-06-26T11_45_09_353Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+12 http fetch GET 200 https://registry.npmjs.org/create-vite 411ms (cache revalidated)
+13 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+14 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+15 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+16 silly idealTree buildDeps
+17 silly fetch manifest create-vite@9.1.0
+18 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+19 http cache https://registry.npmjs.org/create-vite 20ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/create-vite set size:248214 disposed:false
+21 silly placeDep ROOT create-vite@9.1.0 REPLACE for:  want: 9.1.0
+22 silly reify moves {}
+23 silly audit bulk request { 'create-vite': [ '9.1.0' ] }
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 226ms
+25 silly audit report {}
+26 verbose cwd /Users/vpro/Desktop/Dashboard Projet5/project_26_JUN 2/project_26_JUN
+27 verbose os Darwin 21.6.0
+28 verbose node v24.12.0
+29 verbose npm  v11.6.2
+30 verbose exit 0
+31 info ok

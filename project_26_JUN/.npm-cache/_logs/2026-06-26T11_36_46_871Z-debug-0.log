@@ -1,0 +1,40 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/vpro/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm exec modern-web-guidance@latest search dashboard metrics UI charts graphs
+7 verbose argv "exec" "--yes" "--" "modern-web-guidance@latest" "search" "dashboard metrics UI charts graphs"
+8 verbose logfile logs-max:10 dir:/Users/vpro/Desktop/Dashboard Projet5/project_26_JUN 2/project_26_JUN/.npm-cache/_logs/2026-06-26T11_36_46_871Z-
+9 verbose logfile /Users/vpro/Desktop/Dashboard Projet5/project_26_JUN 2/project_26_JUN/.npm-cache/_logs/2026-06-26T11_36_46_871Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+12 http fetch GET 200 https://registry.npmjs.org/npm 390ms
+13 http fetch GET 200 https://registry.npmjs.org/modern-web-guidance 394ms (cache miss)
+14 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+15 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+16 silly idealTree buildDeps
+17 silly fetch manifest modern-web-guidance@0.0.174
+18 silly packumentCache full:https://registry.npmjs.org/modern-web-guidance cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/modern-web-guidance 140ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/modern-web-guidance set size:undefined disposed:false
+21 silly placeDep ROOT modern-web-guidance@0.0.174 OK for:  want: 0.0.174
+22 silly reify moves {}
+23 silly audit bulk request { 'modern-web-guidance': [ '0.0.174' ] }
+24 http cache modern-web-guidance@https://registry.npmjs.org/modern-web-guidance/-/modern-web-guidance-0.0.174.tgz 0ms (cache hit)
+25 silly tarball no local data for modern-web-guidance@https://registry.npmjs.org/modern-web-guidance/-/modern-web-guidance-0.0.174.tgz. Extracting by manifest.
+26 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 264ms
+27 silly audit report {}
+28 http fetch GET 200 https://registry.npmjs.org/modern-web-guidance/-/modern-web-guidance-0.0.174.tgz 3660ms (cache miss)
+29 verbose cwd /Users/vpro/Desktop/Dashboard Projet5/project_26_JUN 2/project_26_JUN
+30 verbose os Darwin 21.6.0
+31 verbose node v24.12.0
+32 verbose npm  v11.6.2
+33 notice
+33 notice New minor version of npm available! 11.6.2 -> 11.17.0
+33 notice Changelog: https://github.com/npm/cli/releases/tag/v11.17.0
+33 notice To update run: npm install -g npm@11.17.0
+33 notice  { force: true, Symbol(proc-log.meta): true }
+34 verbose exit 0
+35 info ok

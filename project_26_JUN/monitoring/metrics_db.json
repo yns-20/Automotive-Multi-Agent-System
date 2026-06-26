@@ -551,5 +551,121 @@
         "response": "Test response"
       }
     }
+  ],
+  "21cbe8b1-0a26-4be2-86ae-cd7cf32c442b": [
+    {
+      "timestamp": "2026-06-26T15:06:42.123736+00:00",
+      "correlation_id": "21cbe8b1-0a26-4be2-86ae-cd7cf32c442b",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:06:42.125484+00:00",
+      "correlation_id": "21cbe8b1-0a26-4be2-86ae-cd7cf32c442b",
+      "agent": "supervisor",
+      "event": "routed_to=diagnostic",
+      "level": "INFO"
+    }
+  ],
+  "49016045-8430-41b7-bcf1-cc449529b257": [
+    {
+      "timestamp": "2026-06-26T15:06:42.132769+00:00",
+      "correlation_id": "49016045-8430-41b7-bcf1-cc449529b257",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:06:42.135332+00:00",
+      "correlation_id": "49016045-8430-41b7-bcf1-cc449529b257",
+      "agent": "supervisor",
+      "event": "routed_to=maintenance",
+      "level": "INFO"
+    }
+  ],
+  "d4c13269-881e-47bb-9e47-05ceb06028fd": [
+    {
+      "timestamp": "2026-06-26T15:06:42.143290+00:00",
+      "correlation_id": "d4c13269-881e-47bb-9e47-05ceb06028fd",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:06:42.145137+00:00",
+      "correlation_id": "d4c13269-881e-47bb-9e47-05ceb06028fd",
+      "agent": "supervisor",
+      "event": "routed_to=parts",
+      "level": "INFO"
+    }
+  ],
+  "6ab7dda2-18e4-417e-9f48-f094154d9c5a": [
+    {
+      "timestamp": "2026-06-26T15:06:42.151857+00:00",
+      "correlation_id": "6ab7dda2-18e4-417e-9f48-f094154d9c5a",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:06:42.157293+00:00",
+      "correlation_id": "6ab7dda2-18e4-417e-9f48-f094154d9c5a",
+      "agent": "supervisor",
+      "event": "routed_to=telemetry",
+      "level": "INFO"
+    }
+  ],
+  "3a9ac32d-134c-4e11-8d76-b3b6cec7d45c": [
+    {
+      "timestamp": "2026-06-26T15:06:42.161532+00:00",
+      "correlation_id": "3a9ac32d-134c-4e11-8d76-b3b6cec7d45c",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:06:42.165012+00:00",
+      "correlation_id": "3a9ac32d-134c-4e11-8d76-b3b6cec7d45c",
+      "agent": "supervisor",
+      "event": "routed_to=FINISH",
+      "level": "INFO"
+    }
+  ],
+  "f91e7ab9-0a81-4abb-b80b-e26eb2bab39b": [
+    {
+      "timestamp": "2026-06-26T15:06:42.236550+00:00",
+      "correlation_id": "f91e7ab9-0a81-4abb-b80b-e26eb2bab39b",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "Test query"
+      }
+    },
+    {
+      "timestamp": "2026-06-26T15:06:42.242260+00:00",
+      "correlation_id": "f91e7ab9-0a81-4abb-b80b-e26eb2bab39b",
+      "agent": "diagnostic",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:06:42.244268+00:00",
+      "correlation_id": "f91e7ab9-0a81-4abb-b80b-e26eb2bab39b",
+      "agent": "diagnostic",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:06:42.247239+00:00",
+      "correlation_id": "f91e7ab9-0a81-4abb-b80b-e26eb2bab39b",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "Test response"
+      }
+    }
   ]
 }

@@ -667,5 +667,121 @@
         "response": "Test response"
       }
     }
+  ],
+  "3fd1f0db-ab8b-4083-b372-15ab920dc8a5": [
+    {
+      "timestamp": "2026-06-26T15:19:41.265779+00:00",
+      "correlation_id": "3fd1f0db-ab8b-4083-b372-15ab920dc8a5",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:19:41.269473+00:00",
+      "correlation_id": "3fd1f0db-ab8b-4083-b372-15ab920dc8a5",
+      "agent": "supervisor",
+      "event": "routed_to=diagnostic",
+      "level": "INFO"
+    }
+  ],
+  "434fa7a6-640e-404f-9e78-652b2649b5ae": [
+    {
+      "timestamp": "2026-06-26T15:19:41.283840+00:00",
+      "correlation_id": "434fa7a6-640e-404f-9e78-652b2649b5ae",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:19:41.287133+00:00",
+      "correlation_id": "434fa7a6-640e-404f-9e78-652b2649b5ae",
+      "agent": "supervisor",
+      "event": "routed_to=maintenance",
+      "level": "INFO"
+    }
+  ],
+  "13712916-1a12-46d0-8574-3ec82466dd99": [
+    {
+      "timestamp": "2026-06-26T15:19:41.298024+00:00",
+      "correlation_id": "13712916-1a12-46d0-8574-3ec82466dd99",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:19:41.302279+00:00",
+      "correlation_id": "13712916-1a12-46d0-8574-3ec82466dd99",
+      "agent": "supervisor",
+      "event": "routed_to=parts",
+      "level": "INFO"
+    }
+  ],
+  "158435fe-f436-424e-a191-43593a7c5f1b": [
+    {
+      "timestamp": "2026-06-26T15:19:41.310818+00:00",
+      "correlation_id": "158435fe-f436-424e-a191-43593a7c5f1b",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:19:41.313439+00:00",
+      "correlation_id": "158435fe-f436-424e-a191-43593a7c5f1b",
+      "agent": "supervisor",
+      "event": "routed_to=telemetry",
+      "level": "INFO"
+    }
+  ],
+  "0a6669b2-646c-496f-b9f9-76e7cf275a78": [
+    {
+      "timestamp": "2026-06-26T15:19:41.319742+00:00",
+      "correlation_id": "0a6669b2-646c-496f-b9f9-76e7cf275a78",
+      "agent": "supervisor",
+      "event": "routing_decision",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:19:41.321818+00:00",
+      "correlation_id": "0a6669b2-646c-496f-b9f9-76e7cf275a78",
+      "agent": "supervisor",
+      "event": "routed_to=FINISH",
+      "level": "INFO"
+    }
+  ],
+  "ace9541e-8344-473b-8186-6d3783adabe2": [
+    {
+      "timestamp": "2026-06-26T15:19:41.404681+00:00",
+      "correlation_id": "ace9541e-8344-473b-8186-6d3783adabe2",
+      "agent": "system",
+      "event": "session_start",
+      "level": "INFO",
+      "extra": {
+        "query": "Test query"
+      }
+    },
+    {
+      "timestamp": "2026-06-26T15:19:41.406830+00:00",
+      "correlation_id": "ace9541e-8344-473b-8186-6d3783adabe2",
+      "agent": "diagnostic",
+      "event": "start",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:19:41.412779+00:00",
+      "correlation_id": "ace9541e-8344-473b-8186-6d3783adabe2",
+      "agent": "diagnostic",
+      "event": "end",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-06-26T15:19:41.415578+00:00",
+      "correlation_id": "ace9541e-8344-473b-8186-6d3783adabe2",
+      "agent": "system",
+      "event": "session_end",
+      "level": "INFO",
+      "extra": {
+        "response": "Test response"
+      }
+    }
   ]
 }
